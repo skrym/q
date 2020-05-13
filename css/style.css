@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f1f1f1;
+}
+
+section {
+  padding: 60px;
+}
+
+.wrapper {
+  background: white;
+  width: 520px;
+  margin: 10px auto;
+  padding: 40px 32px;
+  box-shadow: 0 0 15px -6px #999;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  height: 58px;
+  overflow: hidden;
+  transf
+}
+
+input {
+  padding: 8px 24px;
+  margin-bottom: 20px;
+}
+
+input:focus {
+  outline: 1px solid #00a2e0;
+}
+
+.btns {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btns .btn {
+  padding: 12px 24px;
+  text-align: center;
+  flex-grow: 1;
+  max-width: 210px;
+  background: #00a2e0;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  filter: grayscale(1)
+}
+
+table {
+  width: 100%;
+  text-align: center;
+}
+
+th {
+  font-weight: 600;
+}
+
+th, td {
+  padding: 10px 12px;
+}
+
+tbody tr:nth-child(odd) {
+  background: #f1f1f1;
+}

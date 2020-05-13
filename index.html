@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section>
+    <div class="wrapper">
+      <div class="form">
+        <h2>Запись в очередь</h2>
+        <form action="#">
+          <div class="inputs">
+            <input type="text" placeholder="Имя клиента" name="name">
+            <input type="text" placeholder="Возраст" name="age">
+            <input type="text" placeholder="Процедура" name="procedure">
+          </div>
+          <div class="btns">
+            <div class="btn" id="showFormBtn">Показать поля</div>
+            <button class="btn" id="createClientBtn" 
+            onclick="addClient(); return false" disabled>Создать клиента</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="clients-list">
+        <h2>Список клиентов</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Имя</th>
+              <th>Возраст</th>
+              <th>Процедура</th>
+              <th> </th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  <script src="js/main.js"></script>
+</body>
+</html>
