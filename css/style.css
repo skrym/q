@@ -39,7 +39,11 @@ h2 {
   flex-direction: column;
   height: 58px;
   overflow: hidden;
-  transf
+  transition: 1s;
+}
+
+.inputs--full {
+  height: 172px;
 }
 
 input {
