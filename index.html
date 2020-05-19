@@ -18,12 +18,12 @@
             <input type="text" placeholder="Возраст" name="age">
             <input type="text" placeholder="Процедура" name="procedure">
           </div>
+        </form>
           <div class="btns">
             <div class="btn" id="showFormBtn">Показать поля</div>
             <button class="btn" id="createClientBtn" 
-            onclick="addClient(); return false" disabled>Создать клиента</button>
+            disabled>Создать клиента</button>
           </div>
-        </form>
       </div>
     </div>
     <div class="wrapper">
@@ -32,9 +32,9 @@
         <table>
           <thead>
             <tr class="filter">
-              <th><input type="text" placeholder="Имя клиента" readonly></th>
-              <th><input type="text" placeholder="Возраст" readonly></th>
-              <th><input type="text" placeholder="Процедура" readonly></th>
+              <th><input type="text" placeholder="Имя клиента" name="f-name" readonly></th>
+              <th><input type="text" placeholder="Возраст" name="f-age" readonly></th>
+              <th><input type="text" placeholder="Процедура" name="f-procedure" readonly></th>
               <th> </th>
             </tr>
           </thead>
@@ -44,7 +44,7 @@
       </div>
     </div>
   </section>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/jquery.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
